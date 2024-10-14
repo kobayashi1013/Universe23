@@ -18,8 +18,13 @@ namespace ObjectManager
         {
             if (_collectionMethod == CollectionMethod.Collect)
             {
-                var managedObjects = FindObjectsOfType<CollectObject>();
+                //var managedObjects = FindObjectsOfType<CollectObject>();
             }            
+        }
+
+        private void Generator()
+        {
+
         }
     }
 }
